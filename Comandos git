@@ -23,6 +23,10 @@ git rm --cached <file>
 git reset <id commit> --hard
 git reset <id_commit> --soft
 git reset HEAD
+
+
+git branch <name>
+git checkout <branch>
 git checkout <id_commit> <file>
 git checkout <branch> <file>
 
