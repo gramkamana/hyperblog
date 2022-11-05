@@ -24,9 +24,11 @@ git reset <id commit> --hard
 git reset <id_commit> --soft
 git reset HEAD
 
-
+git branch
 git branch <name>
 git checkout <branch>
+git merge <branch>
+
 git checkout <id_commit> <file>
 git checkout <branch> <file>
 
