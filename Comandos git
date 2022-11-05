@@ -1,0 +1,47 @@
+git init
+
+git config 
+git config --list
+git config --lidt --show-origin
+git config --global user.name "<name>"
+git config --global user.email "<email>"
+
+git status 
+
+git add <file> 
+git add .
+git commit -m "<menssage>"
+git commit -am "<menssage>"
+
+git log <file>
+git log --stat
+git show <file>
+git diff <id_commit1> <id_commit2>
+
+git rm <file>
+git rm --cached <file>
+git reset <id commit> --hard
+git reset <id_commit> --soft
+git reset HEAD
+git checkout <id_commit> <file>
+git checkout <branch> <file>
+
+git clone <url>
+
+git push <url>
+
+git fetch + git merge
+
+git pull
+
+
+
+
+
+
+
+
+
+ 
+
+ 
