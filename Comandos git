@@ -36,6 +36,8 @@ git checkout <branch> <file>
 GITHUB
 
 git remote add origin <URL>
+git remote
+git remote -v
 
 git clone <url>
 
