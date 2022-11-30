@@ -32,6 +32,11 @@ git merge <branch>
 git checkout <id_commit> <file>
 git checkout <branch> <file>
 
+
+GITHUB
+
+git remote add origin <URL>
+
 git clone <url>
 
 git push <url>
