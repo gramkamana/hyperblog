@@ -38,6 +38,7 @@ git checkout <branch> <file>
 git tag -a v0.1 -m <"mensaje"> <id_commit>
 git tag
 git show-ref --tags
+git tag -d <name_tag>
 
 GITHUB
 
