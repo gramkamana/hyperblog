@@ -13,8 +13,11 @@ git add .
 git commit -m "<menssage>"
 git commit -am "<menssage>"
 
+git log 
 git log <file>
 git log --stat
+git log --all
+git log --all --graph --decorate --oneline
 git show <file>
 git diff <id_commit1> <id_commit2>
 
@@ -32,6 +35,9 @@ git merge <branch>
 git checkout <id_commit> <file>
 git checkout <branch> <file>
 
+git tag -a v0.1 -m <"mensaje"> <id_commit>
+git tag
+git show-ref --tags
 
 GITHUB
 
@@ -51,7 +57,7 @@ git pull origin master --allow-unrelated-histories
 ssh-keygen -t rsa -b 4096 -C "kamana108@hotmail.com"
 eval $(ssh-agent -s) 
 ssh-add ~/.ssh/id_rsa # desde la carpeta donde esta el archivo
-
+git remote set-url origin <git@github.com:..>
 
 
 
