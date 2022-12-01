@@ -1,4 +1,5 @@
 git init
+gitk
 
 git config 
 git config --list
@@ -29,8 +30,12 @@ git reset HEAD
 
 git branch
 git branch <name>
+git branch -m <new_name>
 git checkout <branch>
 git merge <branch>
+git show-branch
+git show-branch --all
+
 
 git checkout <id_commit> <file>
 git checkout <branch> <file>
