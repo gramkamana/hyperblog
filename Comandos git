@@ -48,6 +48,8 @@ git remote -v
 git clone <url>
 
 git push <url>
+git push origin <branch>
+git push origin --tags
 
 git fetch + git merge
 
