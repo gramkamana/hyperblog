@@ -48,6 +48,11 @@ git fetch + git merge
 git pull
 git pull origin master --allow-unrelated-histories
 
+ssh-keygen -t rsa -b 4096 -C "kamana108@hotmail.com"
+eval $(ssh-agent -s) 
+ssh-add ~/.ssh/id_rsa # desde la carpeta donde esta el archivo
+
+
 
 
 
