@@ -40,6 +40,7 @@ git tag
 git show-ref --tags
 git tag -d <name_tag>
 
+
 GITHUB
 
 git remote add origin <URL>
@@ -51,6 +52,7 @@ git clone <url>
 git push <url>
 git push origin <branch>
 git push origin --tags
+git push origin :refs/tags/<name_tag>
 
 git fetch + git merge
 
