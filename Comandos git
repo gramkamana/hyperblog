@@ -1,7 +1,8 @@
 git init
 gitk
 
-git config 
+git config
+git config -l 
 git config --list
 git config --lidt --show-origin
 git config --global user.name "<name>"
