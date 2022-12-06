@@ -1,6 +1,6 @@
 this is the gram's story 
 
-Gram is 31 year old and he was born in Colombia, He is engineer 
+Gram is 31 year old and he was born in Colombia, He is engineer and He likes Git
  living all over the world
 
 
