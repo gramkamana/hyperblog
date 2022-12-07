@@ -69,6 +69,8 @@ eval $(ssh-agent -s)
 ssh-add ~/.ssh/id_rsa # desde la carpeta donde esta el archivo
 git remote set-url origin <git@github.com:..>
 
+rearme https://pandao.github.io/editor.md/en.html
+
 
 
 
