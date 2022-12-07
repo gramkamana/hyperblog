@@ -74,12 +74,19 @@ git merge eff544f # Fusionará en un nuevo commit la historia de master con el m
 git add -A # Para hacer uso de amend los archivos deben de estar en staging
 git commit --amend # Remendar último commit
 
-Para buscar, empleamos el comando git grep color y nos buscará en todo el proyecto los archivos en donde está la palabra color.
+git grep color -->use la palabra color
+git grep la --> donde use la palabra la
+git grep -n color–> en que lineas use la palabra color
+git grep -n platzi --> en que lineas use la palabra platzi
+git grep -c la --> cuantas veces use la palabra la
+git grep -c paltzi --> cuantas veces use la palabra platzi
+git grep -c “<p>”–> cuantas veces use la etiqueta <p>
 
-Con git grep -n color nos saldrá un output el cual nos dirá en qué línea está lo que estamos buscando.
-Con git grep -c color nos saldrá un output el cual nos dirá cuántas veces se repite esa palabra y en qué archivo.
-Si queremos buscar cuántas veces utilizamos un atributo de HTML lo hacemos con git grep -c "<p>".
+git log-S “cabecera” --> cuantas veces use la palabra cabecera en
+todos los commits.
 
+grep–> para los archivos
+log --> para los commits.
 GITHUB
 
 git remote add origin <URL>
