@@ -32,6 +32,7 @@ git branch
 git branch <name>
 git branch -m <new_name>
 git checkout <branch>
+git branch -D <branch>
 git merge <branch>
 git show-branch
 git show-branch --all
