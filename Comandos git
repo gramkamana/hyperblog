@@ -58,7 +58,9 @@ git stash drop
 git stash drop stash@{<num_stash>}
 git stash clear
 
-
+git clean
+git clean --dry-run
+git clean -f
 
 GITHUB
 
