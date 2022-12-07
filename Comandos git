@@ -62,6 +62,8 @@ git clean
 git clean --dry-run
 git clean -f
 
+git cherry-pick <id_commit_branch>
+
 GITHUB
 
 git remote add origin <URL>
