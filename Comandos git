@@ -46,6 +46,19 @@ git tag
 git show-ref --tags
 git tag -d <name_tag>
 
+git stash
+git stash save "mensaje identificador del elemento del stashed"
+git stash pop
+git stash pop stash@{<num_stash>}
+git stash apply stash@{<num_stash>}
+git stash list
+git stash branch <nombre_de_la_rama>
+git stash branch nombre_de_rama stash@{<num_stash>}
+git stash drop
+git stash drop stash@{<num_stash>}
+git stash clear
+
+
 
 GITHUB
 
